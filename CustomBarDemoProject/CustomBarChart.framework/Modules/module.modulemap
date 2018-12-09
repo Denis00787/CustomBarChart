@@ -1,0 +1,11 @@
+framework module CustomBarChart {
+  umbrella header "CustomBarChart.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomBarChart.Swift {
+    header "CustomBarChart-Swift.h"
+    requires objc
+}
